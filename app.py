@@ -72,6 +72,17 @@ elif page=="AI vs Analyst Experiment":
     st.markdown("""### Experimental question\nHow much of an end-to-end analytics project can AI complete when given only a raw fictional dataset, with the analyst deliberately providing minimal direction?""")
     st.markdown("""### Human input so far\n- Defined the experiment and requested a comparable portfolio project.\n- Supplied the raw fictional CSV.\n- Saved the outputs when instructed.\n\n### AI work so far\n- Inferred the data structure and business framing.\n- Audited data quality and reconciled calculated fields.\n- Selected analytical outcomes and predictors.\n- Ran descriptive, segmented, correlation, hypothesis, and predictive analyses.\n- Created project artifacts and this Streamlit application.\n\n### Why this comparison matters\nThe earlier Drive Time project was analyst-guided and intentionally educational. This project tests the opposite workflow: AI handles production work first, while the analyst intervenes only where judgment, context, credentials, or publication actions require a human.""")
     st.warning("This is a process experiment, not a claim that human analysts are unnecessary. Final interpretation, business relevance, accountability, and decisions remain human responsibilities.")
+    st.markdown("""### What the experiment showed
+A large share of the repeatable production workflow could be delegated to AI: data audit, business framing, exploratory analysis, statistical testing, model comparison, feature importance, documentation, coding, and presentation design. Human involvement became necessary for purpose, account ownership, publication, verification, and ultimately deciding whether the output is meaningful and trustworthy.
+
+### Comparison with Drive Time
+The earlier Drive Time project was analyst-guided and intentionally educational. The analyst worked through the tools, questioned results, made design choices, and learned through iteration. The AI-led project prioritized speed and autonomy. That difference matters: the first workflow developed analyst judgment, while the second demonstrated how much production work that judgment can later supervise.
+
+### Important comparison limitation
+The two datasets are not equivalent. Drive Time used broad daily operational measures and produced relatively weak predictive relationships. This project uses transaction-level price, quantity, discount, sales, cost, and profit measures with much stronger structural relationships. Differences in model performance therefore should not be attributed to AI autonomy versus analyst guidance alone.
+
+### Bottom line
+The experiment suggests that AI is strongest as an accelerator rather than a replacement for the analyst. AI can compress much of the production cycle, while the analyst shifts toward framing, context, skepticism, validation, accountability, and decision-making.""")
 
 else:
     st.header("About")

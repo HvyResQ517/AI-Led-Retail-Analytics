@@ -42,3 +42,9 @@ The earlier Drive Time project used a highly collaborative, analyst-guided workf
 
 ## Limitations
 All data are fictional and synthetic. Findings are associations within the dataset and should not be interpreted as evidence about any real retailer or as proof of cause and effect.
+
+## Live Application
+https://ai-led-retail-analytics.streamlit.app/
+
+## Final Experiment Takeaway
+The experiment suggests that AI can automate a large share of repeatable analytics production, but the analyst remains essential for problem framing, business context, challenging assumptions, validating conclusions, publication ownership, and accountability. The comparison with Drive Time is a workflow comparison, not a controlled test of model performance, because the two synthetic datasets differ substantially in structure and predictive signal.
